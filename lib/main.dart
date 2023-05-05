@@ -11,8 +11,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.w3schools.com/images/w3schools_green.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
